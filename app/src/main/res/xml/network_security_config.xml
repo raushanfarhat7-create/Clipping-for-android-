@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AutoClip is normally served over plain http on a LAN (e.g. 192.168.x.x:8000),
+     so cleartext must be allowed. Put it behind HTTPS if you expose it publicly. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
