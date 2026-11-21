@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AutoClip</string>
+    <string name="setup_title">Connect to AutoClip</string>
+    <string name="setup_body">AutoClip runs on a computer or server. Enter its address, for example http://192.168.1.20:8000</string>
+    <string name="setup_hint">Server address</string>
+    <string name="setup_button">Test and save</string>
+    <string name="setup_testing">Testing connection…</string>
+    <string name="setup_ok">Connected. AutoClip %1$s</string>
+    <string name="setup_fail">Could not reach AutoClip at that address: %1$s</string>
+    <string name="setup_warning">AutoClip has no login. Only connect over a network you trust.</string>
+    <string name="error_title">Can\'t reach AutoClip</string>
+    <string name="retry">Retry</string>
+    <string name="change_server">Change server</string>
+    <string name="reload">Reload</string>
+    <string name="downloading">Downloading %1$s…</string>
+</resources>
